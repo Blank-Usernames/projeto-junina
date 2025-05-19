@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/267/284/original/festa-junina-celebration-background-free-vector.jpg');
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 95vh;
+}
+
+h1 {
+    margin: 15px;
+    text-align: center;
+    font-weight: normal;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    border: 15px solid;
+    border-image-source: url('https://th.bing.com/th/id/R.459d3c1ed8ca07949f97620b12923da3?rik=44JvdhEHNhOfWQ&pid=ImgRaw&r=0');
+    border-image-slice: 20;
+    border-image-repeat: round;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.247);
+    width: 500px;
+    height: 200px;
+}
+
+.container {
+    display: flex;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2.5px solid rgba(0, 0, 0, 0.377);
+    font-size: 1.5em;
+}
+
+input:focus {
+    outline: none;
+    border-color: rgb(235, 115, 16);;
+}
+
+button {
+    background-color: rgb(247, 186, 18);
+    color: white;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    font-weight: bolder;
+    width: 120px;
+    height: 52px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border: none;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(233, 166, 65);
+    transition-duration: 0.2s;
+    transform: scale(1.03);
+}
+
+a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
+    transform: scale(1.03);
+}
+
+.correto {
+    color: rgb(3, 104, 3);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 10px;
+    border: 15px solid;
+    border-image-source: url('https://th.bing.com/th/id/R.459d3c1ed8ca07949f97620b12923da3?rik=44JvdhEHNhOfWQ&pid=ImgRaw&r=0');
+    border-image-slice: 20;
+    border-image-repeat: round;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.247);
+    margin: 20px;
+    width: 500px;
+    height: 300px;
+}
+
+img {
+    border-radius: 10px;
+    width: 480px;
+    height: 280px;
+}
+
+.errado {
+    color: rgb(136, 2, 2);
+}
